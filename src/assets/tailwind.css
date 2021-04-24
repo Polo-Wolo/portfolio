@@ -3,3 +3,19 @@
 @tailwind components;
 
 @tailwind utilities;
+
+#app {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	@apply text-earie;
+}
+
+.btn {
+	@apply rounded-md px-3 py-1 transform hover:scale-105 cursor-pointer outline-none appearance-none;
+}
+.btn-dodger {
+	@apply text-white font-normal bg-dodger;
+}
+
