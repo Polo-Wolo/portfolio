@@ -6,10 +6,16 @@ module.exports = {
 		extend: {
 			colors: {
 				'earie': '#1e1e1e',
-				'dodger': '#0098ff',
+				dodger: {
+					DEFAULT: '#0098ff',
+					bg: '#003D66',
+				},
 				'indian': '#e09f3e',
 				'crayola': '#ed254e'
-			}
+			},
+			backgroundImage: theme => ({
+				'main': "url('/background.png')"
+			})
 		}
 	},
 	variants: {},
