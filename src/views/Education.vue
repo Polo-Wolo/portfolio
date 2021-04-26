@@ -13,7 +13,7 @@
 					<div class="date">Juillet 2019</div>
 				</div>
 				<div class="circle">
-					<h1 class="number">5</h1>
+					<h1 class="number">1</h1>
 				</div>
 				<div class="background">
 					<div class="header">
@@ -34,7 +34,7 @@
 					<div class="hidden lg:flex-grow"></div>
 				</div>
 				<div class="circle">
-					<h1 class="number">5</h1>
+					<h1 class="number">2</h1>
 				</div>
 				<div class="background">
 					<div class="header">
@@ -55,7 +55,7 @@
 					<div class="date">Juillet 2019</div>
 				</div>
 				<div class="circle">
-					<h1 class="number">5</h1>
+					<h1 class="number">3</h1>
 				</div>
 				<div class="background">
 					<div class="header">
@@ -76,7 +76,7 @@
 					<div class="hidden lg:flex-grow"></div>
 				</div>
 				<div class="circle">
-					<h1 class="number">5</h1>
+					<h1 class="number">4</h1>
 				</div>
 				<div class="background">
 					<div class="header">
