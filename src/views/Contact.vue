@@ -1,6 +1,6 @@
 <template>
-  <div class="Projects text-white">
-    <h1>This is my Projects page</h1>
+  <div class="Contact text-white">
+    <h1>This is my Contact page</h1>
   </div>
 </template>
 
@@ -8,6 +8,6 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Projects',
+  name: 'Contact',
 });
 </script>
