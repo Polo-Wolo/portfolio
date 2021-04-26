@@ -7,6 +7,7 @@ module.exports = {
 			colors: {
 				'earie': '#1e1e1e',
 				dodger: {
+					light: '#33ADFF',
 					DEFAULT: '#0098ff',
 					bg: '#003D66',
 				},
@@ -18,6 +19,10 @@ module.exports = {
 			})
 		}
 	},
-	variants: {},
+	variants: {
+		extend :{
+			fontWeight: ['hover', 'focus'],
+		}
+	},
 	plugins: [],
   }
