@@ -2,57 +2,115 @@
   <div class="Education text-white">
     <!-- component -->
 	<div class="container mx-auto w-full h-full">
-		<div class="relative wrap overflow-hidden p-10 h-full">
+		<div class="relative wrap overflow-hidden p-9 h-full">
 			<!-- Line -->
-			<div class="border-2-2 absolute border-opacity-50 border-white h-full border" style="left: 49.9%"></div>
+			<div class="border-2-2 absolute border-opacity-50 border-white h-full border left-52 lg:left-1/2"></div>
 
 			<!-- right timeline -->
-			<div class="right-card">
-				<div class="order-1 w-5/12"></div>
+			<div class="timeline-card">
+				<div class="date-card">
+					<div class="lg:flex-grow"></div>
+					<div class="date">Juillet 2019</div>
+				</div>
 				<div class="circle">
-					<h1 class="number">1</h1>
+					<h1 class="number">5</h1>
 				</div>
 				<div class="background">
-					<h3 class="title">Lorem Ipsum</h3>
-					<p class="body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<div class="header">
+						<div class="title">Bacalauréat Scientifique</div>
+					</div>
+					<div class="body">
+						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
+						<p class="content">Spécialité Informatique et science du numérique</p>
+						<p class="content">Section Européenne et Breton</p>
+					</div>
 				</div>
 			</div>
 
 			<!-- left timeline -->
-			<div class="left-card">
-				<div class="order-1 w-5/12"></div>
+			<div class="timeline-card lg:flex-row-reverse">
+				<div class="date-card">
+					<div class="date">Juillet 2019</div>
+					<div class="hidden lg:flex-grow"></div>
+				</div>
 				<div class="circle">
-					<h1 class="number">2</h1>
+					<h1 class="number">5</h1>
 				</div>
 				<div class="background">
-					<h3 class="title">Lorem Ipsum</h3>
-					<p class="body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<div class="header">
+						<div class="title">Bacalauréat Scientifique</div>
+					</div>
+					<div class="body">
+						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
+						<p class="content">Spécialité Informatique et science du numérique</p>
+						<p class="content">Section Européenne et Breton</p>
+					</div>
 				</div>
 			</div>
 			
 			<!-- right timeline -->
-			<div class="right-card">
-				<div class="order-1 w-5/12"></div>
+			<div class="timeline-card">
+				<div class="date-card">
+					<div class="lg:flex-grow"></div>
+					<div class="date">Juillet 2019</div>
+				</div>
 				<div class="circle">
-					<h1 class="number">3</h1>
+					<h1 class="number">5</h1>
 				</div>
 				<div class="background">
-					<h3 class="title">Lorem Ipsum</h3>
-					<p class="body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<div class="header">
+						<div class="title">Bacalauréat Scientifique</div>
+					</div>
+					<div class="body">
+						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
+						<p class="content">Spécialité Informatique et science du numérique</p>
+						<p class="content">Section Européenne et Breton</p>
+					</div>
 				</div>
 			</div>
 
 			<!-- left timeline -->
-			<div class=" left-card">
-				<div class="order-1 w-5/12"></div>
+			<div class="timeline-card lg:flex-row-reverse">
+				<div class="date-card">
+					<div class="date">Juillet 2019</div>
+					<div class="hidden lg:flex-grow"></div>
+				</div>
 				<div class="circle">
-					<h1 class="number">4</h1>
+					<h1 class="number">5</h1>
 				</div>
 				<div class="background">
-					<h3 class="title">Lorem Ipsum</h3>
-					<p class="body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<div class="header">
+						<div class="title">Bacalauréat Scientifique</div>
+					</div>
+					<div class="body">
+						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
+						<p class="content">Spécialité Informatique et science du numérique</p>
+						<p class="content">Section Européenne et Breton</p>
+					</div>
 				</div>
 			</div>
+
+			<!-- right timeline -->
+			<div class="timeline-card">
+				<div class="date-card">
+					<div class="lg:flex-grow"></div>
+					<div class="date">Juillet 2019</div>
+				</div>
+				<div class="circle">
+					<h1 class="number">5</h1>
+				</div>
+				<div class="background">
+					<div class="header">
+						<div class="title">Bacalauréat Scientifique</div>
+					</div>
+					<div class="body">
+						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
+						<p class="content">Spécialité Informatique et science du numérique</p>
+						<p class="content">Section Européenne et Breton</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
   </div>
@@ -67,39 +125,38 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+.timeline-card {
+	@apply mb-8 flex justify-between w-full;
 
-.left-card {
-	@apply mb-8 flex justify-between flex-row-reverse items-center w-full;
-
-	.title {
-		@apply mb-3 font-bold text-white text-xl;
-	}
-	.background {
-		@apply order-1 bg-earie rounded-lg shadow-lg w-5/12 px-6 py-4;
+	.header {
+		@apply bg-dodger flex rounded-t-lg shadow-lg text-right py-2 px-6 font-sans items-center;
 	}
 	.body {
-		@apply text-sm  leading-snug tracking-wide text-white text-opacity-100;
+		@apply bg-white rounded-b-lg px-6 py-4 ;
 	}
-}
-
-.right-card {
-	@apply mb-8 flex justify-between items-center w-full;
-
 	.title {
-		@apply mb-3 font-bold text-earie text-xl;
+		@apply text-left text-white text-lg font-medium;
+	}
+	.year {
+		@apply text-white text-sm font-medium;
 	}
 	.background {
-		@apply order-1 bg-white rounded-lg shadow-lg w-5/12 px-6 py-4;
+		@apply order-1 w-2/3 lg:w-5/12 rounded-xl border-2 border-white;
 	}
-	.body {
-		@apply text-sm leading-snug tracking-wide text-earie text-opacity-100;
+	.content {
+		@apply text-sm text-justify leading-loose tracking-wide text-earie;
 	}
-}	
-
-.circle {
-		@apply z-20 flex items-center order-1 bg-earie border-2 border-dodger shadow-lg w-8 h-8 rounded-full;
-}
-.number {
+	.date-card {
+		@apply order-1 lg:w-5/12 w-1/6 flex items-start;
+	}
+	.date {
+			@apply text-white py-2 font-medium;
+	}
+	.circle {
+		@apply z-20 flex items-center order-1 bg-earie border-3 border-dodger shadow-lg w-10 h-10 rounded-full;
+	}
+	.number {
 		@apply mx-auto font-semibold text-lg text-white;
+	}
 }
 </style>
