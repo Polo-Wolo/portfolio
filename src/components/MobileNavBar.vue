@@ -1,5 +1,5 @@
 <template>
-	<div id="mobile-nav">
+	<div class="mobile-nav">
 		<router-link to="/"><img class="h-8 w-10 ml-4 transform hover:scale-105 hover:from-transparent" src="../assets/PW.svg"></router-link>
 		<div class="flex-grow"></div>
 		<button class="focus:outline-none" @click="toggleDisplay">
@@ -11,7 +11,7 @@
 			</svg>
 		</button>
 	</div>
-	<div :class="display ? 'fixed' : '-translate-y-full absolute'" class="nav-list transform duration-200 ease-in-out pt-4 -z-10 text-sm text-white font-light flex flex-col leading-relaxed space-y-2 justify-center w-full bg-earie inset-x-0 shadow-md">
+	<div :class="display ? 'fixed' : '-translate-y-full absolute'" class="nav-list transform duration-300 ease-in-out py-4 -z-10 text-sm text-white font-light flex flex-col leading-relaxed space-y-2 justify-center w-full bg-earie inset-x-0 shadow-md">
 		<router-link @click="toggleDisplay" to="/">Home</router-link>
 		<router-link @click="toggleDisplay" to="/education">Education</router-link>
 		<router-link @click="toggleDisplay" to="/projects">Projects</router-link>
@@ -40,8 +40,8 @@ export default defineComponent({
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#mobile-nav {
-	@apply z-50 lg:hidden w-full top-0 fixed h-16 px-8 items-center flex text-white bg-earie shadow-lg mb-4;
+.mobile-nav {
+	@apply z-50 lg:hidden w-full top-0 fixed h-14 px-8 items-center flex text-white bg-earie shadow-lg mb-4;
 }
 
 .nav-list {
