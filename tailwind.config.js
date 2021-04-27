@@ -18,6 +18,12 @@ module.exports = {
 			borderWidth: {
 				'3': '3px',
 			},
+			inset: {
+				'6.5': '1.625rem',
+				'6.75': '1.6875rem',
+				'52.25': '13.0625rem',
+				'52.5': '13.125rem',
+			},
 			backgroundImage: theme => ({
 				'main': "url('/background.png')"
 			})
