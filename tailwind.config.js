@@ -4,6 +4,9 @@ module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		extend: {
+			minHeight: {
+				'300': '300px',
+			},
 			colors: {
 				'earie': '#1e1e1e',
 				dodger: {
@@ -27,7 +30,7 @@ module.exports = {
 			backgroundImage: theme => ({
 				'main': "url('/background.png')"
 			})
-		}
+		},
 	},
 	variants: {
 		extend :{
