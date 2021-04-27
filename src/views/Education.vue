@@ -2,20 +2,19 @@
   <div class="Education text-white">
     <!-- component -->
 	<div class="container mx-auto w-full h-full">
-		<div class="relative wrap overflow-hidden p-9 h-full">
+		<div class="relative wrap overflow-hidden p-4 md:p-9 h-full">
 			<!-- Line -->
-			<div class="border-2-2 absolute border-opacity-50 border-white h-full border left-52 lg:left-1/2"></div>
+			<div class="border-2-2 absolute border-opacity-50 border-white h-full border left-6.75 md:left-52.25 lg:left-1/2"></div>
 
 			<!-- right timeline -->
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juillet 2019</div>
+					<div class="date">Juil 2019</div>
 				</div>
 				<div class="circle">
-					<h1 class="number">1</h1>
 				</div>
-				<div class="background">
+				<div class="box">
 					<div class="header">
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
@@ -30,13 +29,11 @@
 			<!-- left timeline -->
 			<div class="timeline-card lg:flex-row-reverse">
 				<div class="date-card">
-					<div class="date">Juillet 2019</div>
+					<div class="date">Juil 2019</div>
 					<div class="hidden lg:flex-grow"></div>
 				</div>
-				<div class="circle">
-					<h1 class="number">2</h1>
-				</div>
-				<div class="background">
+				<div class="circle"></div>
+				<div class="box">
 					<div class="header">
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
@@ -52,12 +49,10 @@
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juillet 2019</div>
+					<div class="date">Juil 2019</div>
 				</div>
-				<div class="circle">
-					<h1 class="number">3</h1>
-				</div>
-				<div class="background">
+				<div class="circle"></div>
+				<div class="box">
 					<div class="header">
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
@@ -72,13 +67,11 @@
 			<!-- left timeline -->
 			<div class="timeline-card lg:flex-row-reverse">
 				<div class="date-card">
-					<div class="date">Juillet 2019</div>
+					<div class="date">Juil 2019</div>
 					<div class="hidden lg:flex-grow"></div>
 				</div>
-				<div class="circle">
-					<h1 class="number">4</h1>
-				</div>
-				<div class="background">
+				<div class="circle"></div>
+				<div class="box">
 					<div class="header">
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
@@ -94,12 +87,10 @@
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juillet 2019</div>
+					<div class="date">Juil 2019</div>
 				</div>
-				<div class="circle">
-					<h1 class="number">5</h1>
-				</div>
-				<div class="background">
+				<div class="circle"></div>
+				<div class="box">
 					<div class="header">
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
@@ -126,37 +117,31 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .timeline-card {
-	@apply mb-8 flex justify-between w-full;
+	@apply mb-8 flex justify-between space-y-4 w-full;
 
 	.header {
-		@apply bg-dodger flex rounded-t-lg shadow-lg text-right py-2 px-6 font-sans items-center;
+		@apply bg-dodger flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
 	}
 	.body {
-		@apply bg-white rounded-b-lg px-6 py-4 ;
+		@apply bg-white rounded-b-lg px-3 md:px-4 py-2 md:py-3 ;
 	}
 	.title {
-		@apply text-left text-white text-lg font-medium;
+		@apply font-sans text-left text-white text-sm md:text-lg font-medium;
 	}
-	.year {
-		@apply text-white text-sm font-medium;
-	}
-	.background {
-		@apply order-1 w-2/3 lg:w-5/12 rounded-xl border-2 border-white;
+	.box {
+		@apply order-2 md:order-1 w-2/3 lg:w-5/12 rounded-xl border-2 border-white;
 	}
 	.content {
-		@apply text-sm text-justify leading-loose tracking-wide text-earie;
+		@apply font-sans text-xs md:text-sm text-justify md:leading-relaxed tracking-wide text-earie;
 	}
 	.date-card {
-		@apply order-1 lg:w-5/12 w-1/6 flex items-start;
+		@apply order-2 md:order-1 lg:w-5/12 w-1/6 flex items-start;
 	}
 	.date {
-			@apply text-white py-2 font-medium;
+		@apply text-white py-5 text-xs md:text-base font-medium;
 	}
 	.circle {
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-dodger shadow-lg w-10 h-10 rounded-full;
-	}
-	.number {
-		@apply mx-auto font-semibold text-lg text-white;
+		@apply z-20 flex items-center order-1 bg-earie border-3 border-dodger shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
 	}
 }
 </style>
