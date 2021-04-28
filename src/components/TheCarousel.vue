@@ -25,7 +25,7 @@ export default defineComponent({
 	data: () => ({
 		// carousel settings
 		settings: {
-			itemsToShow: 1.3,
+			itemsToShow: 1,
 			snapAlign: 'center',
 			wrapAround: true,
 		},
@@ -36,8 +36,5 @@ export default defineComponent({
 <style lang="scss" scoped>
 .carousel__item {
 	@apply bg-earie flex text-white w-full justify-center items-center rounded-md min-h-300;
-}
-.carousel__slide {
-	@apply p-2;
 }
 </style>
