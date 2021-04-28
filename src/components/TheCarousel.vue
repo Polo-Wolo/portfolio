@@ -1,5 +1,5 @@
 <template>
-	<Carousel class="w-full" :settings="settings" :breakpoints="breakpoints">
+	<Carousel class="w-full group" :settings="settings" :breakpoints="breakpoints">
 		<Slide v-for="slide in 5" :key="slide">
 			<div class="carousel__item">{{ slide }}</div>
 		</Slide>
@@ -39,8 +39,5 @@ export default defineComponent({
 }
 .carousel__slide {
 	@apply p-2;
-}
-.carousel__next, .carousel__prev {
-	@apply bg-red-400;
 }
 </style>

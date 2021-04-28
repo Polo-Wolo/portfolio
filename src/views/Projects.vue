@@ -1,7 +1,9 @@
 <template>
 	<div class="Projects text-white px-9">
 		<h1>This is my Projects page</h1>
-		<TheCarousel></TheCarousel>
+		<div >
+			<TheCarousel></TheCarousel>
+		</div>
 	</div>
 </template>
 
