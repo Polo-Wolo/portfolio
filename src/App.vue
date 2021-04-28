@@ -4,7 +4,9 @@
 			<MobileNavBar></MobileNavBar>
 			<NavBar></NavBar>
 		</div>
+		<div class="py-8">
 		<router-view/>
+		</div>
 	</div>
 </template>
 
