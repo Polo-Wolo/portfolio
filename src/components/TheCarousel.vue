@@ -1,5 +1,5 @@
 <template>
-	<Carousel class="w-full group" :settings="settings" :breakpoints="breakpoints">
+	<Carousel class="w-full group h-full" :settings="settings" :breakpoints="breakpoints">
 		<Slide v-for="slide in 5" :key="slide">
 			<div class="carousel__item">{{ slide }}</div>
 		</Slide>
