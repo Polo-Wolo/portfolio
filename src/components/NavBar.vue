@@ -1,10 +1,10 @@
 <template>
   <div id="nav">
-			<router-link to="/"><img class="h-8 w-10 ml-10 lg:ml-16 xl:ml-24 transform hover:scale-105 hover:from-transparent" src="../assets/PW.svg"></router-link>
+			<router-link to="/"><img class="h-11 ml-10 lg:ml-16 xl:ml-24 transform hover:scale-105 hover:from-transparent" src="../assets/svg/PW.svg"></router-link>
 			<div class="flex-grow"></div>
 			<div class="flex-inline space-x-10 lg:space-x-16 items-center">
 				<router-link to="/">Home</router-link>
-				<router-link to="/education">Education</router-link>
+				<router-link to="/formations">Formations</router-link>
 				<router-link to="/projects">Projects</router-link>
 				<router-link to="/hobbies">Hobbies</router-link>
 			</div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="Education text-white">
+  <div class="text-white">
     <!-- component -->
 	<div class="container mx-auto w-full h-full">
 		<div class="relative wrap overflow-hidden p-4 md:p-9 h-full">
@@ -10,18 +10,17 @@
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juil 2019</div>
+					<div class="date">Janv. 2020</div>
 				</div>
 				<div class="circle">
 				</div>
 				<div class="box">
 					<div class="header">
-						<div class="title">Bacalauréat Scientifique</div>
+						<div class="title">SST</div>
 					</div>
 					<div class="body">
-						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
-						<p class="content">Spécialité Informatique et science du numérique</p>
-						<p class="content">Section Européenne et Breton</p>
+						<p class="content">Obtention du certificat de Sauveteur Secouriste du Travail à Plouzané</p>
+						<p class="content">Réalisé avec L'Ecole Nationale d'Ingénieurs de Brest - ENIB</p>
 					</div>
 				</div>
 			</div>
@@ -38,9 +37,9 @@
 						<div class="title">Bacalauréat Scientifique</div>
 					</div>
 					<div class="body">
-						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
-						<p class="content">Spécialité Informatique et science du numérique</p>
-						<p class="content">Section Européenne et Breton</p>
+						<p class="content">Obtention du Baccalauréat avec mention au lycée Saint-Louis de Châteaulin</p>
+						<p class="content"> - Spécialité Informatique et science du numérique</p>
+						<p class="content"> - Section Européenne et Breton</p>
 					</div>
 				</div>
 			</div>
@@ -49,17 +48,15 @@
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juil 2019</div>
+					<div class="date">Avr. 2020</div>
 				</div>
 				<div class="circle"></div>
 				<div class="box">
 					<div class="header">
-						<div class="title">Bacalauréat Scientifique</div>
+						<div class="title">BNSSA</div>
 					</div>
 					<div class="body">
-						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
-						<p class="content">Spécialité Informatique et science du numérique</p>
-						<p class="content">Section Européenne et Breton</p>
+						<p class="content">Obtention du Brevet National de Sécurité et de Sauvetage Aquatique à Landerneau</p>
 					</div>
 				</div>
 			</div>
@@ -67,18 +64,17 @@
 			<!-- left timeline -->
 			<div class="timeline-card lg:flex-row-reverse">
 				<div class="date-card">
-					<div class="date">Juil 2019</div>
+					<div class="date">Avr. 2020</div>
 					<div class="hidden lg:flex-grow"></div>
 				</div>
 				<div class="circle"></div>
 				<div class="box">
 					<div class="header">
-						<div class="title">Bacalauréat Scientifique</div>
+						<div class="title">PSE1</div>
 					</div>
 					<div class="body">
-						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
-						<p class="content">Spécialité Informatique et science du numérique</p>
-						<p class="content">Section Européenne et Breton</p>
+						<p class="content">Obtention du diplôme des Premiers Secours en Équipe de niveau 1 à Landerneau</p>
+						<p class="content">Réalisé avec les Sauveteurs Secouristes Léonards - SSL29</p>
 					</div>
 				</div>
 			</div>
@@ -87,17 +83,16 @@
 			<div class="timeline-card">
 				<div class="date-card">
 					<div class="lg:flex-grow"></div>
-					<div class="date">Juil 2019</div>
+					<div class="date">Juin 2017</div>
 				</div>
 				<div class="circle"></div>
 				<div class="box">
 					<div class="header">
-						<div class="title">Bacalauréat Scientifique</div>
+						<div class="title">PET for School</div>
 					</div>
 					<div class="body">
-						<p class="content">Obtention du Baccalauréat au lycée Saint-Louis de Châteaulin</p>
-						<p class="content">Spécialité Informatique et science du numérique</p>
-						<p class="content">Section Européenne et Breton</p>
+						<p class="content">Obtention du PET for School à Brest</p>
+						<p class="content"><u>English level :</u> B1 Cambridge</p>
 					</div>
 				</div>
 			</div>
@@ -111,7 +106,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Education',
+  name: 'Formations',
 });
 </script>
 
