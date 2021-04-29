@@ -1,5 +1,5 @@
 <template>
-	<div class="relative my-14 lg:my-16 w-full h-screen bg-scroll bg-gradient-to-bl from-dodger-bg to-earie">
+	<div class="relative my-14 lg:my-16 w-full h-full min-h-screen bg-scroll bg-gradient-to-bl from-dodger-bg to-earie">
 		<div>
 			<MobileNavBar></MobileNavBar>
 			<NavBar></NavBar>

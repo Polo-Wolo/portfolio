@@ -2,8 +2,9 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import Hobbies from '../views/Hobbies.vue'
-import Formations from '../views/Formations.vue'
+import Education from '../views/Education.vue'
 import Contact from '../views/Contact.vue'
+import WorkExperiences from '../views/WorkExperiences.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -17,9 +18,14 @@ const routes: Array<RouteRecordRaw> = [
     component: Projects
   },
   {
-    path: '/formations',
-    name: 'Formations',
-    component: Formations
+    path: '/education',
+    name: 'Education',
+    component: Education
+  },
+  {
+    path: '/workexperiences',
+    name: 'WorkExperiences',
+    component: WorkExperiences
   },
   {
     path: '/hobbies',

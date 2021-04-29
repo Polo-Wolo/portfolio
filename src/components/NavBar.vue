@@ -4,7 +4,8 @@
 			<div class="flex-grow"></div>
 			<div class="flex-inline space-x-10 lg:space-x-16 items-center">
 				<router-link to="/">Home</router-link>
-				<router-link to="/formations">Formations</router-link>
+				<router-link to="/education">Education</router-link>
+				<router-link to="/workexperiences">Work experiences</router-link>
 				<router-link to="/projects">Projects</router-link>
 				<router-link to="/hobbies">Hobbies</router-link>
 			</div>
