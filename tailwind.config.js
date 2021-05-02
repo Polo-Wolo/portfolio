@@ -33,6 +33,12 @@ module.exports = {
 				'52.25': '13.0625rem',
 				'52.5': '13.125rem',
 			},
+			screen: {
+				'2xl': '1920px',
+			},
+			scale: {
+				'101': '1.01'
+			},
 			backgroundImage: theme => ({
 				'main': "url('/background.png')"
 			})
