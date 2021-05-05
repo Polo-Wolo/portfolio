@@ -27,10 +27,13 @@ export default defineComponent({
 #nav {
 	@apply hidden z-50 lg:flex w-full top-0 fixed h-16 px-16 items-center text-sm leading-tight justify-center bg-earie text-white font-light shadow-lg mb-4;
 
-	a {
-		&.router-link-active {
-			@apply text-dodger underline;
+	div {
+		a {
+			&.router-link-active {
+				@apply text-dodger underline;
+			}
 		}
 	}
+
 }
 </style>
