@@ -1,0 +1,30 @@
+{
+    "projects": [
+        {
+            "title": "Nasa ParaWing-5C",
+            "date": "2020-2021",
+            "time_spent": "54",
+            "content":
+                "When I was younger, my dad played with a traction kite, this kite made me dream !😍 So in summer 2020 I decided to made my own kite with some upgrades. I started to search few plans and I begin by sewing the wings and the center with our old sewing machine (it tooks me about 40 hours). I have resumed this paused project in April 2021 and finish it by creating 48 flanges et 4 main lines (about 14 hours). A child's dream come true! 😁 Such good time to make it flight ! 🪁",
+            "pictures_url": [
+                "/assets/jpeg/NPW/1.jpg",
+                "/assets/jpeg/NPW/2.jpg",
+                "/assets/jpeg/NPW/3.jpg",
+                "/assets/jpeg/NPW/4.jpg",
+                "/assets/jpeg/NPW/5.jpg"
+            ]
+        },
+        {
+            "title": "Title2",
+            "date": "2022",
+            "time_spent": "22",
+            "content": "This is my content 2 but not 3",
+            "pictures_url": [
+                "/assets/jpeg/test_project/1.jpg",
+                "/assets/jpeg/test_project/2.png",
+                "/assets/jpeg/test_project/3.jpg",
+                "/assets/jpeg/test_project/4.png"
+            ]
+        }
+    ]
+}
