@@ -18,7 +18,7 @@
 			<TheCarousel :urls="project.pictures_url"></TheCarousel>
 		</div>
 		<div class="content">
-			{{ project.content }} 
+			<p v-for="(paragraph, index) in project.content" :key="index">{{ paragraph }}</p>
 		</div>
 	</div>
 </template>
