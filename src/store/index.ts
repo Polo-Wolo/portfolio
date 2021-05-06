@@ -1,4 +1,4 @@
-import { Project, Education } from '@/models';
+import { Project, Education, WorkExperience } from '@/models';
 import { createStore } from 'vuex'
 import data from "../assets/data.json";
 
@@ -13,11 +13,15 @@ export default createStore({
 		SET_EDUCATIONS(state: any, educations: Array<Education>): void {
 			state.educations = educations;
 		},
+		SET_WORKEXPERIENCES(state: any, workexperiences: Array<WorkExperience>): void {
+			state.workexperiences = workexperiences;
+		},
 	},
 	actions: {
 		init({commit}: any) {
 			commit("SET_PROJECTS", data.projects);
 			commit("SET_EDUCATIONS", data.educations);
+			commit("SET_WORKEXPERIENCES", data.workexperiences);
 		},
 	},
 	getters: {
@@ -26,6 +30,9 @@ export default createStore({
 		}, 
 		educations(state: any): Array<Education> {
 			return data.educations;
+		},
+		workexperiences(state: any): Array<WorkExperience> {
+			return data.workexperiences;
 		},
 	},
 	modules: {}

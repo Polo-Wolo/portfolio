@@ -12,3 +12,11 @@ export interface Education {
     content: Array<string>;
     color: string;
 }
+
+export interface WorkExperience {
+    linked_title: string;
+    link: string;
+    title_type: string;
+    date: string;
+    content: Array<string>;
+}

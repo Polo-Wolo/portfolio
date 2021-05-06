@@ -22,6 +22,7 @@ import { defineComponent, PropType } from 'vue'
 import { Education } from '@/models'
 
 export default defineComponent({
+    name: "EducationCard",
     props: {
         education: {
             type: Object as PropType<Education>,
@@ -80,14 +81,13 @@ export default defineComponent({
         @apply z-20 flex items-center order-1 bg-earie border-3 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
     }
 	.box {
+        @apply order-2 md:order-1 w-2/3 lg:w-5/12 rounded-lg border-2 border-white;
         .header {
             @apply  rounded-t-md shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
             .title {
                 @apply font-sans text-left text-white text-sm md:text-lg font-medium;
             }
         }
-        @apply order-2 md:order-1 w-2/3 lg:w-5/12 rounded-lg border-2 border-white;
-
         .content {
             @apply bg-white px-3 md:px-4 py-2 md:py-3 font-sans text-xs md:text-sm text-justify md:leading-relaxed tracking-wide text-earie;
         }

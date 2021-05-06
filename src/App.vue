@@ -4,7 +4,7 @@
 			<MobileNavBar></MobileNavBar>
 			<NavBar></NavBar>
 		</div>
-		<div class="py-4">
+		<div class="py-4 mb-auto">
 			<router-view/>
 		</div>
 		<Footer></Footer>
@@ -27,7 +27,8 @@ export default defineComponent({
 	computed: {
 		...mapGetters({
 			projects: "projects",
-			educations: "educations"
+			educations: "educations",
+			workexperiences: "workexperiences"
 		})
 	}
 })

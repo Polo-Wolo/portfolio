@@ -1,11 +1,9 @@
 <template>
 
-	<div class="flex flex-row text-white px-2 md:px-8 border-t broder-white items-center h-10 md:h-16 mt-8 w-full self-end">
+	<div class="flex flex-row text-gray-400 px-2 md:px-8 border-t broder-gray-400 items-center h-10 md:h-16 mt-8 w-full self-end justify-between">
 		<div class="text-xs">© Copyright 2021</div>
-		<div class="flex-grow"></div>
 		<div class="text-xs">Created in 2 weeks</div>
-		<div class="flex-grow"></div>
-		<div class="flex items-center space-x-1 md:space-x-2 text-gray-100">
+		<div class="flex items-center space-x-1 md:space-x-2 text-gray-400">
 			<!-- Linkedin -->
 			<a href="https://www.linkedin.com/in/paul-walczak-639106194/" target="_blank" class="transition-transform transform hover:scale-110 hover:text-dodger">
 				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="w-5 h-5 lg:w-7 lg:h-7" viewBox="0 0 24 24" fill="currentColor">

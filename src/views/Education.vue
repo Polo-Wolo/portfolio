@@ -1,5 +1,4 @@
 <template>
-  <div class="text-white">
     <!-- component -->
 	<div class="container mx-auto w-full h-full">
 		<div class="relative wrap overflow-hidden p-4 md:p-9 h-full">
@@ -16,7 +15,6 @@
 
 		</div>
 	</div>
-  </div>
 </template>
 
 <script lang="ts">
@@ -25,6 +23,7 @@ import { mapGetters } from 'vuex'
 import EducationCard from '@/components/Cards/EducationCard.vue'
 
 export default defineComponent({
+	name: "Education",
 	components: {
 		EducationCard
 	},
@@ -35,22 +34,3 @@ export default defineComponent({
 	}
 });
 </script>
-
-<style lang="scss" scoped>
-// .timeline-card-yellow{
-// 	.header {
-// 		@apply bg-yellow-500 flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
-// 	}
-// 	.circle {
-// 		@apply z-20 flex items-center order-1 bg-earie border-3 border-yellow-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-// 	}
-// }
-// .timeline-card-green{
-// 	.header {
-// 		@apply bg-green-500 flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
-// 	}
-// 	.circle {
-// 		@apply z-20 flex items-center order-1 bg-earie border-3 border-green-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-// 	}
-// }
-</style>

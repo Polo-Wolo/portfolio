@@ -112,5 +112,59 @@
 			"color": "blue"
 		}
 
+	],
+	"workexperiences": [
+		{
+			"linked_title": "BreizElec",
+			"link": "https://www.breizelec.fr/",
+			"title_type": " - Worker internship - 1 month",
+			"date": "Fevr. 2021",
+			"content": [
+				"Component insertion and assembly of electronic equipment.",
+				"Realised at Châteaulin 29."
+			]
+		},
+		{
+			"linked_title": "BNP Paribas",
+			"link": "https://group.bnpparibas/",
+			"title_type": " - CDD",
+			"date": "Juil. 2020",
+			"content": [
+				"Reception in a departmental agency for a month",
+				" - Customer reception, management of routine requests and commercial activity",
+				"Realised at Châteaulin 29."
+			]
+		},
+		{
+			"linked_title": "BNP Paribas",
+			"link": "https://group.bnpparibas/",
+			"title_type": " - CDD",
+			"date": "Juil. 2019",
+			"content": [
+				"Reception in a departmental agency for a month",
+				" - Customer reception, management of routine requests and commercial activity",
+				"Realised at Châteaulin 29."
+			]
+		},
+		{
+			"linked_title": "Advance Ride",
+			"link": "http://adr-cablepark.fr/",
+			"title_type": " - Discovery internship",
+			"date": "Avr. 2018",
+			"content": [
+				"Internship to discover water teleski operator's job at Advance Ride.",
+				"Realised at Saint-Renan 29."
+			]
+		},
+		{
+			"linked_title": "Altéor Environnement",
+			"link": "https://www.alteor-environnement.com/",
+			"title_type": " - Discovery internship",
+			"date": "Fevr. 2016",
+			"content": [
+				"Internship to discover the job of environmental manager at Alteor environnement.",
+				"Realised at Saint-Thonan 29."
+			]
+		}
 	]
 }

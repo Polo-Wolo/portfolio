@@ -1,165 +1,36 @@
 <template>
-  <div class="text-white">
     <!-- component -->
 	<div class="container mx-auto w-full h-full">
 		<div class="relative wrap overflow-hidden p-4 md:p-9 h-full">
 			<!-- Line -->
 			<div class="border-2-2 absolute border-opacity-50 border-white h-full border left-6.75 md:left-50.25 lg:left-1/2"></div>
 
-			<!-- left timeline -->
-			<div class="timeline-card lg:flex-row-reverse">
-				<div class="date-card">
-					<div class="date">Fevr. 2021</div>
-					<div class="hidden lg:flex-grow"></div>
-				</div>
-				<div class="circle"></div>
-				<div class="box">
-					<div class="header">
-						<div class="title"><a href="https://www.breizelec.fr/" target="_blank"><u>BreizElec</u></a> - Worker internship - 1 month</div>
-					</div>
-					<div class="body">
-						<p class="content">Component insertion and assembly of electronic equipment.</p>
-            <p class="content">Realised at Châteaulin 29.</p>
-					</div>
-				</div>
-			</div>
-			
-			<!-- right timeline -->
-			<div class="timeline-card">
-				<div class="date-card">
-					<div class="lg:flex-grow"></div>
-					<div class="date">Juil. 2020</div>
-				</div>
-				<div class="circle"></div>
-				<div class="box">
-					<div class="header">
-						<div class="title"><a href="https://group.bnpparibas/" target="_blank"><u>BNP Paribas</u></a> - CDD</div>
-					</div>
-					<div class="body">
-						<p class="content">Reception in a departmental agency for a month</p>
-            <p class="content"> - Customer reception, management of routine requests and commercial activity</p>
-            <p class="content">Realised at Châteaulin 29.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- left timeline -->
-			<div class="timeline-card lg:flex-row-reverse">
-				<div class="date-card">
-					<div class="date">Juil. 2019</div>
-					<div class="hidden lg:flex-grow"></div>
-				</div>
-				<div class="circle"></div>
-				<div class="box">
-					<div class="header">
-						<div class="title"><a href="https://group.bnpparibas/" target="_blank"><u>BNP Paribas</u></a> - CDD</div>
-					</div>
-					<div class="body">
-						<p class="content">Reception in a departmental agency for a month</p>
-            <p class="content"> - Customer reception, management of routine requests and commercial activity</p>
-            <p class="content">Realised at Châteaulin 29.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- right timeline -->
-			<div class="timeline-card timeline-card">
-				<div class="date-card">
-					<div class="lg:flex-grow"></div>
-					<div class="date">Avr. 2018</div>
-				</div>
-				<div class="circle"></div>
-				<div class="box">
-					<div class="header">
-						<div class="title"><a href="http://adr-cablepark.fr/" target="_blank"><u>Advance Ride</u></a> - Discovery internship</div>
-					</div>
-					<div class="body">
-						<p class="content">Internship to discover water teleski operator's job at Advance Ride.</p>
-            <p class="content">Realised at Saint-Renan 29.</p>
-					</div>
-				</div>
-			</div>
-
-			<!-- left timeline -->
-			<div class="timeline-card lg:flex-row-reverse">
-				<div class="date-card">
-					<div class="date">Fevr. 2016</div>
-					<div class="lg:flex-grow"></div>
-				</div>
-				<div class="circle"></div>
-				<div class="box">
-					<div class="header">
-						<div class="title"><a href="https://www.alteor-environnement.com/" target="_blank"><u>Altéor Environnement</u></a> - Discovery internship</div>
-					</div>
-					<div class="body">
-						<p class="content">Internship to discover the job of environmental manager at Alteor environnement.</p>
-            <p class="content">Realised at Saint-Thonan 29.</p>
-					</div>
-				</div>
-			</div>
+			<WorkExperienceCard
+				v-for="(workexperience, index) in workexperiences"
+				:key="index"
+				:workexperience="workexperience"
+				:left="Boolean(index % 2)"
+				>
+			</WorkExperienceCard>
 
 		</div>
 	</div>
-  </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
+import { mapGetters } from 'vuex'
+import WorkExperienceCard from '@/components/Cards/WorkExperienceCard.vue'
 
 export default defineComponent({
-  name: 'WorkExperience',
+	name: "WorkExperience",
+	components: {
+		WorkExperienceCard
+	},
+	computed: {
+		...mapGetters({
+			workexperiences: "workexperiences"
+		})
+	}
 });
 </script>
-
-<style lang="scss" scoped>
-.timeline-card {
-	@apply mb-8 flex justify-between space-y-4 w-full;
-
-	.header {
-		@apply bg-dodger flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
-	}
-	.body {
-		@apply bg-white rounded-b-lg px-3 md:px-4 py-2 md:py-3 ;
-	}
-	.title {
-		@apply font-sans text-left text-white text-sm md:text-lg font-medium;
-	}
-	.box {
-		@apply order-2 md:order-1 w-2/3 lg:w-5/12 rounded-xl border-2 border-white;
-	}
-	.content {
-		@apply font-sans text-xs md:text-sm text-justify md:leading-relaxed tracking-wide text-earie;
-	}
-	.date-card {
-		@apply order-2 md:order-1 lg:w-5/12 w-1/7 flex items-start;
-	}
-	.date {
-		@apply text-white py-5 text-xs md:text-base font-medium;
-	}
-	.circle {
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-dodger shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-	}
-	.circle-red{
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-red-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-	}
-	.circle-green{
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-green-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-	}
-}
-.timeline-card-yellow{
-	.header {
-		@apply bg-yellow-500 flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
-	}
-	.circle {
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-yellow-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-	}
-}
-.timeline-card-green{
-	.header {
-		@apply bg-green-500 flex rounded-t-lg shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
-	}
-	.circle {
-		@apply z-20 flex items-center order-1 bg-earie border-3 border-green-500 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
-	}
-}
-</style>
