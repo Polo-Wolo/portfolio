@@ -12,12 +12,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from 'vue'
 import { mapGetters } from 'vuex'
-import ProjectCard from '../components/Cards/ProjectCard.vue'
+import ProjectCard from '@/components/Cards/ProjectCard.vue'
 
 export default defineComponent({
-	name: 'Projects',
 	components: {
 		ProjectCard
 	},

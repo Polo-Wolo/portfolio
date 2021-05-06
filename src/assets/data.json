@@ -1,34 +1,109 @@
 {
-    "projects": [
-        {
-            "title": "Nasa ParaWing-5C",
-            "date": "2020-2021",
-            "time_spent": "54",
-            "content":
-                "When I was younger, my dad played with a traction kite, this kite made me dream !😍 So in summer 2020 I decided to made my own kite with some upgrades. I started to search few plans and I begin by sewing the wings and the center with our old sewing machine (it tooks me about 40 hours). I have resumed this paused project in April 2021 and finish it by creating 48 flanges et 4 main lines (about 14 hours). A child's dream come true! 😁 Such good time to make it flight ! 🪁",
-            "pictures_url": [
-                "/assets/jpeg/NPW/NPW_1.jpg",
-                "/assets/jpeg/NPW/NPW_2.jpg",
-                "/assets/jpeg/NPW/NPW_3.jpg",
-                "/assets/jpeg/NPW/NPW_4.jpg",
-                "/assets/jpeg/NPW/NPW_5.jpg"
-            ]
-        },
-        {
-            "title": "Polo 6N of 1997",
-            "date": "2019-2020",
-            "time_spent": "520",
-            "content": "This is my content 2 but not 3",
-            "pictures_url": [
-                "/assets/jpeg/Polo6N/Polo6N_1.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_2.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_3.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_4.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_5.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_6.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_7.jpg",
-                "/assets/jpeg/Polo6N/Polo6N_8.jpg"
-            ]
-        }
-    ]
+	"projects": [
+		{
+			"title": "Nasa ParaWing-5C",
+			"date": "2020-2021",
+			"time_spent": "54",
+			"content":
+				"When I was younger, my dad played with a traction kite, this kite made me dream !😍 So in summer 2020 I decided to made my own kite with some upgrades. I started to search few plans and I begin by sewing the wings and the center with our old sewing machine (it tooks me about 40 hours). I have resumed this paused project in April 2021 and finish it by creating 48 flanges et 4 main lines (about 14 hours). A child's dream come true! 😁 Such good time to make it flight ! 🪁",
+			"pictures_url": [
+				"/assets/jpeg/NPW/NPW_1.jpg",
+				"/assets/jpeg/NPW/NPW_2.jpg",
+				"/assets/jpeg/NPW/NPW_3.jpg",
+				"/assets/jpeg/NPW/NPW_4.jpg",
+				"/assets/jpeg/NPW/NPW_5.jpg"
+			]
+		},
+		{
+			"title": "Polo 6N of 1997",
+			"date": "2019-2020",
+			"time_spent": "520",
+			"content": "This is my content 2 but not 3",
+			"pictures_url": [
+				"/assets/jpeg/Polo6N/Polo6N_1.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_2.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_3.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_4.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_5.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_6.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_7.jpg",
+				"/assets/jpeg/Polo6N/Polo6N_8.jpg"
+			]
+		}
+	],
+	"educations": [
+		{
+			"title": "General engineering degree",
+			"date": "Ongoing  2019-2024",
+			"content": [
+				"I am currently studying at ENIB to become a general engineer in electronics, computer science and mechatronics."
+			],
+			"color": "yellow"
+		},
+		{
+			"title": "Volunteer as a Vacation Camp Animator",
+			"date": "Juil. 2020",
+			"content": [
+				"I was a volunteer animator for a vacation camp in the ESTIVAL association of the Mennaisian community."
+			],
+			"color": "green"
+		},
+		{
+			"title": "Sauveteur Secouriste du Travail - SST",
+			"date": "Janv. 2020",
+			"content": [
+				"Awarded of the Sauveteur Secouriste du Travail (First Aid at Work) certificate in Plouzané.",
+				"Realised with National Engineering School of Brest - ENIB."
+			],
+			"color": "blue"
+		},
+		{
+			"title": "Scientific Baccalauréat",
+			"date": "Juil. 2019",
+			"content": [
+				"Awarded of Baccalauréat with distinction at Saint-Louis high school in Châteaulin (2012-2019).",
+				" - Specialization Computer Science and Digital Science",
+				" - European section and Breton",
+				"Realised with Saint-Louis high school in Châteaulin."
+			],
+			"color": "blue"
+		},
+		{
+			"title": "Brevet National de Sécurité et de Sauvetage Aquatique - BNSSA",
+			"date": "Avr. 2020",
+			"content": [
+				"Awarded of Brevet National de Sécurité et de Sauvetage Aquatique (National Aquatic Safety and Rescue Certificate) in Landerneau.",
+				"Realised with Aqualorn pool."
+			],
+			"color": "blue"
+		},
+		{
+			"title": "Premiers Secours en Equipe de niveau 1 - PSE1",
+			"date": "Avr. 2020",
+			"content": [
+				"Awarded of Premiers Secours en Équipe de niveau 1 (the First Aid Team Level 1) certification in Landerneau.",
+				"Realised with the Sauveteurs Secouristes Léonards - SSL29."
+			],
+			"color": "blue"
+		},
+		{
+			"title": "Solidarity journey in Haïti",
+			"date": "Oct. 2017",
+			"content": [
+				"Solidarity stay with young Haïtians from the Noël des Anges Centre (educational center for young people in advanced poverty).",
+				"Realised with Saint-Louis high school in Châteaulin."
+			],
+			"color": "green"
+		},
+		{
+			"title": "PET for School",
+			"date": "Juin 2017",
+			"content": [
+				"Awarded PET for School in Brest.",
+				"English level : B1 Cambridge."
+			],
+			"color": "blue"
+		}
+
+	]
 }

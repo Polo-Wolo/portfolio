@@ -2,7 +2,7 @@ export interface Project {
     title: string;
     date: string;
     time_spent: string;
-    content: Array<string>;
+    content: string;
     pictures_url: Array<string>;
 }
 
