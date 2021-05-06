@@ -26,13 +26,9 @@ export default defineComponent({
 	},
 	computed: {
 		...mapGetters({
-			projects: "projects"
+			projects: "projects",
+			educations: "educations"
 		})
 	}
 })
 </script>
-
-
-<style lang="scss">
-
-</style>
