@@ -4,8 +4,8 @@ module.exports = {
 	darkMode: 'class', // or 'media' or 'class'
 	theme: {
 		extend: {
-			minHeight: {
-				'300': '300px',
+			height: {
+				'120': '30rem',
 			},
 			width: {
 				'1/7': '14.2857143%'
@@ -15,7 +15,7 @@ module.exports = {
 				dodger: {
 					light: '#33ADFF',
 					DEFAULT: '#0098ff',
-					dark: '#33ADFF',
+					dark: '#0087E0',
 					bg: '#003D66',
 				},
 				'indian': '#e09f3e',

@@ -45,6 +45,6 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .carousel__item {
-	@apply bg-earie flex object-cover bg-center text-white w-full justify-center items-center rounded-md min-h-300;
+	@apply flex object-cover w-full object-center rounded-md md:rounded-lg;
 }
 </style>
