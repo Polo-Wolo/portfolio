@@ -32,11 +32,11 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import vClickOutside from '../click-outside';
+import { defineComponent } from 'vue'
+import vClickOutside from '@/click-outside'
 
 export default defineComponent({
-	Name: 'MobileNavBar',
+	name: 'MobileNavBar',
 	data() {
 		return {
 			display: false

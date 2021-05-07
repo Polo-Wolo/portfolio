@@ -46,18 +46,18 @@ export default defineComponent({
         }
     }
     .circle {
-        @apply border-dodger z-20 flex items-center order-1 bg-earie border-3 shadow-lg w-6 h-6 md:w-8 md:h-8 rounded-full;
+        @apply border-dodger z-20 flex items-center order-1 bg-earie border-3 shadow-lg w-6 h-6 xl:w-8 xl:h-8 rounded-full;
     }
 	.box {
         @apply order-2 md:order-1 w-2/3 lg:w-5/12 rounded-lg border-2 border-white;
         .header {
-            @apply bg-dodger rounded-t-md shadow-lg text-right py-1 md:py-2 px-3 md:px-6 font-sans items-center;
+            @apply bg-dodger rounded-t-md shadow-lg text-xs lg:text-sm xl:text-lg py-1 md:py-2 px-3 md:px-5 xl:px-6 font-sans items-center;
             .title {
-                @apply font-sans text-left text-white text-sm lg:text-lg font-medium;
+                @apply font-sans text-left text-white font-medium;
             }
         }
         .content {
-            @apply bg-white px-3 md:px-4 py-2 md:py-3 font-sans text-xs lg:text-sm text-justify md:leading-relaxed tracking-wide text-earie;
+            @apply bg-white px-3 md:px-3 py-2 md:py-2 xl:px-4 xl:py-3 font-sans text-xs xl:text-base text-justify md:leading-relaxed tracking-wide text-earie;
         }
 	}
 }

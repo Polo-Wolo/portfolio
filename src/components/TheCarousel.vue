@@ -16,7 +16,6 @@
 import { defineComponent, PropType } from 'vue';
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
-// import { PicturesUrl } from '@/models'
 
 export default defineComponent({
 	name: 'TheCarousel',
@@ -29,9 +28,8 @@ export default defineComponent({
 		urls: {
 			type: Object as PropType<Array<string>>,
 
-		}
+		},
 	},
-	// why incorrect ?
 	data: () => ({
 		// carousel settings
 		settings: {
