@@ -61,13 +61,33 @@
 		},
 		{
 			"title": "Mini",
-			"date": "DATE",
-			"time_spent": "TIME",
+			"date": "OnGoing",
+			"time_spent": "---",
 			"content": [
-				"Content"
+				"In 2018, my dad bought a 1979 Austin Leyland Mini, it has a 1980 Mini Metro 1.3L engine.",
+				"The engine was running but had poor compression and the body was well attacked by rust.",
+				"We started by separating the engine from the body. Then we had to cut out the sheet metal where there were holes and replace them by welding new ones.",
+				"­",
+				"The engine was completely degreased, cleaned and painted in red.",
+				"After about 1 year, we tackled the bodywork :",
+				" - coats of spray paint",
+				" - layers of putty",
+				" - ect ... ( that's long ! ^^)",
+				"­",
+				"Then the car was painted in dark blue/green metallic at a proffesionel. During this time, we painted the rims, beautiful !",
+				"Today, the engine, the wheels, the clutch, the transmission, the braking system, the windows, the headliner are all mounted ! We are waiting for the delivery of the seats made by a Belgian passionate.",
+				"­",
+				"We can't wait to ride the asphalt !"
 			],
 			"pictures_url": [
-				""
+				"/assets/jpeg/MiniAustin/MiniAustin_8.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_1.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_2.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_3.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_4.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_5.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_6.jpg",
+				"/assets/jpeg/MiniAustin/MiniAustin_7.jpg"
 			]
 		},
 		{
@@ -133,6 +153,17 @@
 				"/assets/jpeg/MiniSurf/MiniSurf_4.jpg",
 				"/assets/jpeg/MiniSurf/MiniSurf_5.jpg",
 				"/assets/jpeg/MiniSurf/MiniSurf_7.jpg"
+			]
+		},
+		{
+			"title": "Vespa",
+			"date": "date",
+			"time_spent": "time",
+			"content": [
+				"Vespa Content"
+			],
+			"pictures_url": [
+				""
 			]
 		}
 
