@@ -53,7 +53,7 @@ export default defineComponent({
 		}
 	}
 	.images {
-		@apply md:px-4 h-120 md:h-96 lg:h-120;
+		@apply md:px-4 h-120 md:h-96 lg:h-120 xl:h-160;
 	}
 	.content {
 		@apply text-earie text-justify px-2 md:px-4 text-sm xl:text-base;

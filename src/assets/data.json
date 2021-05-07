@@ -36,7 +36,106 @@
 				"/assets/jpeg/Polo6N/Polo6N_7.jpg",
 				"/assets/jpeg/Polo6N/Polo6N_8.jpg"
 			]
+		},
+		{
+			"title": "Couteau",
+			"date": "DATE",
+			"time_spent": "TIME",
+			"content": [
+				"Content"
+			],
+			"pictures_url": [
+				""
+			]
+		},
+		{
+			"title": "Bague",
+			"date": "DATE",
+			"time_spent": "TIME",
+			"content": [
+				"Content"
+			],
+			"pictures_url": [
+				""
+			]
+		},
+		{
+			"title": "Mini",
+			"date": "DATE",
+			"time_spent": "TIME",
+			"content": [
+				"Content"
+			],
+			"pictures_url": [
+				""
+			]
+		},
+		{
+			"title": "Longboard",
+			"date": "2018",
+			"time_spent": "22",
+			"content": [
+				"During this project, I was with my German exchange student. We decided to make our own longboard from scratch.",
+				"We first looked for plans on the internet that we printed in several times. Then we cut out our boards.",
+				"After rounding off the edges and sanding the plywood to make it smooth, we started to draw the designs we wanted to appear.",
+				"We put some color with acrylic paint and Posca pencils. 🖌️",
+				"­",
+				"And it's after a week of work that we had the pleasure to ride our boards ! 🛹"
+			],
+			"pictures_url": [
+				"/assets/jpeg/Longboard/Longboard_5.jpg",
+				"/assets/jpeg/Longboard/Longboard_1.jpg",
+				"/assets/jpeg/Longboard/Longboard_2.jpg",
+				"/assets/jpeg/Longboard/Longboard_3.jpg",
+				"/assets/jpeg/Longboard/Longboard_4.jpg",
+				"/assets/jpeg/Longboard/Longboard_6.jpg"
+			]
+		},
+		{
+			"title": "ShareYourProject",
+			"date": "DATE",
+			"time_spent": "TIME",
+			"content": [
+				"Content"
+			],
+			"pictures_url": [
+				""
+			]
+		},
+		{
+			"title": "Ping Pong Led Clock",
+			"date": "DATE",
+			"time_spent": "TIME",
+			"content": [
+				"Content"
+			],
+			"pictures_url": [
+				""
+			]
+		},
+		{
+			"title": "Mini Surf",
+			"date": "2018",
+			"time_spent": "15",
+			"content": [
+				"Here is a mini surf decoration made like a real one!",
+				"After getting a driftwood branch, I cut a small buchet and planed it to make it flat.",
+				"Then I glued a small board shape and cut the outline.",
+				"I made 3 small fins in this same wood. Finally for the decoration there is a small black border and an infinity symbol.",
+				"­",
+				"And hop on a shelf! 😋"
+			],
+			"pictures_url": [
+				"/assets/jpeg/MiniSurf/MiniSurf_6.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_1.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_2.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_3.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_4.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_5.jpg",
+				"/assets/jpeg/MiniSurf/MiniSurf_7.jpg"
+			]
 		}
+
 	],
 	"educations": [
 		{
