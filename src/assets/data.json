@@ -38,28 +38,6 @@
 			]
 		},
 		{
-			"title": "Couteau",
-			"date": "DATE",
-			"time_spent": "TIME",
-			"content": [
-				"Content"
-			],
-			"pictures_url": [
-				""
-			]
-		},
-		{
-			"title": "Bague",
-			"date": "DATE",
-			"time_spent": "TIME",
-			"content": [
-				"Content"
-			],
-			"pictures_url": [
-				""
-			]
-		},
-		{
 			"title": "Mini",
 			"date": "OnGoing",
 			"time_spent": "---",
@@ -112,28 +90,6 @@
 			]
 		},
 		{
-			"title": "ShareYourProject",
-			"date": "DATE",
-			"time_spent": "TIME",
-			"content": [
-				"Content"
-			],
-			"pictures_url": [
-				""
-			]
-		},
-		{
-			"title": "Ping Pong Led Clock",
-			"date": "DATE",
-			"time_spent": "TIME",
-			"content": [
-				"Content"
-			],
-			"pictures_url": [
-				""
-			]
-		},
-		{
 			"title": "Mini Surf",
 			"date": "2018",
 			"time_spent": "15",
@@ -153,17 +109,6 @@
 				"/assets/jpeg/MiniSurf/MiniSurf_4.jpg",
 				"/assets/jpeg/MiniSurf/MiniSurf_5.jpg",
 				"/assets/jpeg/MiniSurf/MiniSurf_7.jpg"
-			]
-		},
-		{
-			"title": "Vespa",
-			"date": "date",
-			"time_spent": "time",
-			"content": [
-				"Vespa Content"
-			],
-			"pictures_url": [
-				""
 			]
 		}
 
