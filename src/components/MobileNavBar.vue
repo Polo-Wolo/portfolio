@@ -7,7 +7,6 @@
 				<router-link to="/education">Education</router-link>
 				<router-link to="/workexperiences">Work experiences</router-link>
 				<router-link to="/projects">Projects</router-link>
-				<router-link to="/hobbies">Hobbies</router-link>
 				<router-link to="/contact">Contact</router-link>
 			</div>
 			<div class="flex-grow"></div>
@@ -25,7 +24,6 @@
 			<router-link @click="toggleDisplay" to="/education">Education</router-link>
 			<router-link @click="toggleDisplay" to="/workexperiences">Work experiences</router-link>
 			<router-link @click="toggleDisplay" to="/projects">Projects</router-link>
-			<router-link @click="toggleDisplay" to="/hobbies">Hobbies</router-link>
 			<router-link @click="toggleDisplay" to="/contact">Contact</router-link>
 		</div>
 	</div>

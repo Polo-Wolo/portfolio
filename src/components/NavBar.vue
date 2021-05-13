@@ -7,7 +7,6 @@
 				<router-link to="/education">Education</router-link>
 				<router-link to="/workexperiences">Work experiences</router-link>
 				<router-link to="/projects">Projects</router-link>
-				<router-link to="/hobbies">Hobbies</router-link>
 			</div>
 			<!-- <div class="btn btn-dodger ml-16 lg:ml-32 xl:ml-64">Contact</div> -->
 			<router-link class="btn btn-dodger ml-16 lg:ml-32 xl:ml-64" to="/contact">Contact</router-link>

@@ -31,7 +31,7 @@
 
                 <!-- Email -->
                 <router-link to="/contact">
-                    <a href="https://github.com/Polo-Wolo" target="_blank" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
+                    <a href="mailto:paul.wzk.pro@gmail.com" target="_blank" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
@@ -46,7 +46,7 @@
                 </a>
 
                 <!-- Share -->
-                <a href="https://github.com/Polo-Wolo" target="_blank" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
+                <a href="#" target="_blank" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
                 </a>
             </div>
