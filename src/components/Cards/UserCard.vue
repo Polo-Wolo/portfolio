@@ -44,9 +44,9 @@
                 </a>
 
                 <!-- Share -->
-                <a href="#" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
+                <button @click="copyUrlToClipboard(urlToCopy)" class="transition-transform transform hover:scale-110 text-earie hover:text-dodger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
-                </a>
+                </button>
             </div>
         </div>
     </div>
@@ -70,5 +70,45 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: "UserCard",
+    data: function() {
+        return {
+            urlToCopy:"paulwalczak.shareyourproject.fr"
+        }
+    },
+    methods: {
+        fallbackCopyUrlToClipboard: function(text: string) {
+            var textArea = document.createElement("textarea");
+            textArea.value = text;
+            
+            // Avoid scrolling to bottom
+            textArea.style.display = "none";
+
+            document.body.appendChild(textArea);
+            textArea.focus();
+            textArea.select();
+
+            try {
+                var successful = document.execCommand('copy');
+                var msg = successful ? 'successfully' : 'unsuccessfully';
+                alert("Paul's website url was copied " + msg + " !");
+            } catch (err) {
+                alert('Oops, unable to copy ...');
+            }
+
+            document.body.removeChild(textArea);
+            },
+
+            copyUrlToClipboard: function(text: string) {
+            if (!navigator.clipboard) {
+                this.fallbackCopyUrlToClipboard(text);
+                return;
+            }
+            navigator.clipboard.writeText(text).then(function() {
+                alert("Paul's website url was copied successfully !");
+            }, function() {
+                alert('Oops, unable to copy ...');
+            });
+        },
+    }
 })
 </script>
