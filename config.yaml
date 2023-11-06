@@ -1,6 +1,6 @@
-baseURL: https://shiny-kitten-777df7.netlify.app
+baseURL: https://polo-wolo.github.io/portfolio/
 languageCode: en-us
-title: John Doe
+title: Paul Walczak
 theme: mini-folio
 
 author: Paul Walczak
@@ -32,24 +32,27 @@ markup:
 
 Params:
   logo:
-    enable: true
-    #path: /img/profile_picture.jpeg
-    #url: https://polo-wolo.github.io/portfolio/
+    enable: false
+    path: /img/pp_square.jpg
+    url: https://polo-wolo.github.io/portfolio/
 
   profile:
     title: "Paul Walczak"
-    subtitle: "4th year student in generalist engineering school"
-    imageUrl: "img/profile_picture.jpeg" # optional
+    github_profile : https://github.com/Polo-Wolo
+    subtitle:
+        - line: "5th year student in generalist engineering school at ENIB"
+        - line: "Currently in a work-study program with RTsys"
+    imageUrl: "img/pp_square.jpg" # optional
     imageWidth: 180
     imageHeight: 180
     cv:
-      - name: French CV
+      - name: French CV (outdated)
         filePath: "/pdf/french_cv.pdf"
-      - name: English CV
+      - name: English CV (outdated)
         filePath: "/pdf/english_cv.pdf"
 
-    mail: john.doe@gmail.com
-    phone: +33 0 12 34 56 78
+    mail: paul.wzk.pro@gmail.com
+    phone: +33 6 15 51 14 06
     socials:
         - name: Paul Walczak
           svg : linkedin-in
@@ -63,17 +66,16 @@ Params:
         - name: Polo-Wolo
           svg : github
           link: https://github.com/Polo-Wolo
-        - name: p9walcza
-          svg : gitlab
-          link: https://git.enib.fr/p9walcza
-        - name: polo.walczak@gmail.com
+        # - name: p9walcza
+        #   svg : gitlab
+        #   link: https://git.enib.fr/p9walcza
+        - name: paul.wzk.pro@gmail.com
           svg : envelope-solid
-          link: mailto:polo.walczak@gmail.com
+          link: mailto:paul.wzk.pro@gmail.com
 
-  website_logo : true
-  timeline_overflow : false       # training timeline dotted lines
+  timeline_overflow : true       # training timeline dotted lines
   ShowPostNavLinks : true
-  repo_url : https://github.com/Polo-Wolo/hugo-enib
+  repo_url : https://github.com/Polo-Wolo/portfolio
 
   # Sections
   experience:
@@ -113,7 +115,7 @@ Params:
         date: July 2020
         duration: 1 month
         content: 
-          - IWelcoming customers, handling routine inquiries and sales activity as receptionist
+          - Welcoming customers, handling routine inquiries and sales activity as receptionist
         city: Châteaulin
         country: FRANCE
       - society: BNP Paribas
@@ -122,7 +124,7 @@ Params:
         date: Aug. 2019
         duration: 1 month
         content: 
-          - IWelcoming customers, handling routine inquiries and sales activity as receptionist
+          - Welcoming customers, handling routine inquiries and sales activity as receptionist
         city: Châteaulin
         country: FRANCE
 
@@ -215,8 +217,9 @@ Params:
       - name: Microcontroller programming
         svg : microchip-solid
         list:
-          - Arduino
           - STM32
+          - Pycom
+          - Arduino
           - CM33
       - name: Programming
         svg : code-solid
@@ -225,7 +228,7 @@ Params:
           - C
           - C++
           - QT Creator
-          - Matlab
+          - Matlab / Scilab
       - name: Web development
         svg : desktop-solid
         list:
@@ -241,6 +244,7 @@ Params:
           - Gazebo
           - CATIA
           - EAGLE
+          - SolidWorks (newbie)
           - Blender (newbie)
       - name: Languages
         svg : language-solid
@@ -252,9 +256,10 @@ Params:
     #title: Custom title
     enable: true
     types:
-      - name: Microcontroller programming
-        svg : microchip-solid
+      - name: Hobbies
+        svg : palette-solid.svg
         list:
           - Arduino
+          - Pycom
           - STM32
           - CM33

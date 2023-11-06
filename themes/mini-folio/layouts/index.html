@@ -5,7 +5,9 @@
             <img draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
                 height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
             <h1>{{ .title | default site.Title }}</h1>
-            <span>{{ .subtitle }}</span>
+            {{- range .subtitle }}
+            <span>{{ .line }}</span>
+            {{- end }}
             {{- with .cv }}
                 <div class="buttons">
                     {{- range . }}
