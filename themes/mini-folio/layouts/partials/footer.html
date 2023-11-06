@@ -2,7 +2,7 @@
     {{- if site.Copyright }}
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a href={{ site.Params.profile.github_profile }}>{{ site.Title }}</a></span>
+    <span>&copy; {{ now.Year }} <a href={{ site.Params.profile.github_profile }} target="_blank">{{ site.Title }}</a></span>
     {{- end }}
     <span>
         Powered by
