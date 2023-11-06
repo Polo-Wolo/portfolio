@@ -1,6 +1,6 @@
 # hugo-enib
 
-* Demo : https://shiny-kitten-777df7.netlify.app/
+* Demo : https://polo-wolo.github.io/portfolio/
 
 ## How to Contribute
 

@@ -11,7 +11,7 @@
 				{{ end }}
 				<a href="{{ $logo_url }}" {{ if not (eq $logo_url "/") }} target="_blank" {{ end }}><img src="{{ $logo_path }}" ></a>
 			{{ end }}
-			<a href="/">{{ .Site.Title }}</a>
+			<a href={{ .Site.Params.logo.url }}>{{ .Site.Title }}</a>
 		</div>
 
 		<div class="nav-container">
