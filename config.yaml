@@ -15,9 +15,9 @@ menu:
       name: Portfolio
       url: /portfolio/
       weight: 20
-    - identifier: projects
-      name: Projects
-      url: /projects/
+    # - identifier: projects
+    #   name: Projects
+    #   url: /projects/
       weight: 30
     - identifier: contact
       name: Contact
@@ -82,6 +82,16 @@ Params:
     #title: Custom title
     enable: true
     list:
+      - society: Upteko ApS
+        society_link: https://www.upteko.com/
+        title: Assistant Engineer intership
+        date: March 2023
+        duration: 5 months
+        content: 
+          - I played a role in several key projects, contributing to the development of hardware, software, and system integrations like the STM32 IMU, LogViewer, and Collision Avoidance SITL.
+          - I also contributeed to hardware design to collaborating on software development, reflecting my generalist skills across technological domains.
+        city: Aarhus
+        country: DENMARK
       - society: Kerpape
         society_link: http://kerpape.mutualite56.fr/fr
         title: Technician intership
