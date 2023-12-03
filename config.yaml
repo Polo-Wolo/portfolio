@@ -235,8 +235,8 @@ Params:
         svg : code-solid
         list:
           - Python
-          - C
           - C++
+          - C
           - QT Creator
           - Matlab / Scilab
       - name: Web development
@@ -265,11 +265,12 @@ Params:
   hobbies:
     #title: Custom title
     enable: true
-    types:
-      - name: Hobbies
-        svg : palette-solid.svg
-        list:
-          - Arduino
-          - Pycom
-          - STM32
-          - CM33
+    list:
+      - name : WingFoil
+        image: img/wing-foil-leucate.jpeg
+      - name : Car Mechanics
+        image: img/car-mechanics.jpg
+      - name : Web dev
+        image: img/web-dev-unsplash.jpg
+      - name : 3D Printing
+        image: img/3d-printer-unsplash.jpg

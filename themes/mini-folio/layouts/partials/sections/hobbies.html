@@ -1,0 +1,22 @@
+{{ if .Site.Params.hobbies.enable | default false }}
+<section id="hobbies" class="section">
+	<h1>{{ .Site.Params.hobbies.title | default "Hobbies" }}</h1>
+    <div class="grid">
+		{{ range .Site.Params.hobbies.list }}
+        <!-- Variables-->
+        {{- $template := "img/template.jpg" -}}
+        {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+        <a class="grid-elem-width" href="{{ .Params.link | default .RelPermalink}}" {{ if isset .Params "link" }} target="_blank" {{ end }}>
+            <article class="card">
+                <figure class="entry-cover">
+                    <img loading="lazy" src="{{ (.image) | default $template | absURL }}" alt="{{ $alt }}">
+                </figure>
+                <div class="card-padding">
+                    <div class="card-title">{{ .name }}</div>
+                </div>
+            </article>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
