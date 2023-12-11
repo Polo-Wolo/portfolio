@@ -6,7 +6,7 @@
         <!-- Variables-->
         {{- $template := "img/template.jpg" -}}
         {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-        <a class="grid-elem-width" href="{{ .Params.link | default .RelPermalink}}" {{ if isset .Params "link" }} target="_blank" {{ end }}>
+        <a class="grid-elem-width">
             <article class="card">
                 <figure class="entry-cover">
                     <img loading="lazy" src="{{ (.image) | default $template | absURL }}" alt="{{ $alt }}">
