@@ -82,6 +82,16 @@ Params:
     #title: Custom title
     enable: true
     list:
+      - society: RTsys
+        society_link: https://rtsys.eu/
+        title: Engineering apprenticeship
+        date: September 2023
+        duration: 1 year
+        content: 
+          - Currently in an apprenticeship for my last year of Engineering school.
+          - I'm a software developer for submarine drones.
+        city: Caudan
+        country: FRANCE
       - society: Upteko ApS
         society_link: https://www.upteko.com/
         title: Assistant Engineer intership
