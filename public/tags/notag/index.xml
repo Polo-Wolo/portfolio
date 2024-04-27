@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NoTag on Paul Walczak</title>
+    <link>http://localhost:1313/portfolio/tags/notag/</link>
+    <description>Recent content in NoTag on Paul Walczak</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Dec 2022 21:33:05 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/tags/notag/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second Project</title>
+      <link>http://localhost:1313/portfolio/projects/second-project/</link>
+      <pubDate>Thu, 29 Dec 2022 21:33:05 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/second-project/</guid>
+      <description>Latex test $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&#xA;Basics Documentation Control Flow if statements Form 1: if if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) Form 2: if/else if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) else: print(&amp;#39;You are not Homer&amp;#39;) Form 3: if/elif/else if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) elif name == &amp;#39;Marge&amp;#39;: print(&amp;#39;Hi Marge!&amp;#39;) else: print(&amp;#39;You are not Homer or Marge&amp;#39;) for Loops The for loop iterates over a list, tuple, dictionary, set or string.</description>
+    </item>
+  </channel>
+</rss>

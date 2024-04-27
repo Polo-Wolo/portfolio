@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Walczak</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content on Paul Walczak</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Dec 2022 21:33:05 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Contribute</title>
+      <link>http://localhost:1313/portfolio/projects/how-to-contribute/</link>
+      <pubDate>Thu, 29 Dec 2022 21:33:05 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/how-to-contribute/</guid>
+      <description>hugo-enib Demo : https://shiny-kitten-777df7.netlify.app/ How to Contribute Fork the github repo Make some modifications Commit your modifications Open a pull request Run the portfolio locally To run the portfolio locally, you should have hugo installed.&#xA;sudo snap install hugo Then, in the repository folder, run&#xA;hugo server </description>
+    </item>
+    <item>
+      <title>Second Project</title>
+      <link>http://localhost:1313/portfolio/projects/second-project/</link>
+      <pubDate>Thu, 29 Dec 2022 21:33:05 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/second-project/</guid>
+      <description>Latex test $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$&#xA;Basics Documentation Control Flow if statements Form 1: if if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) Form 2: if/else if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) else: print(&amp;#39;You are not Homer&amp;#39;) Form 3: if/elif/else if name == &amp;#39;Homer&amp;#39;: print(&amp;#39;Hi, Homer.&amp;#39;) elif name == &amp;#39;Marge&amp;#39;: print(&amp;#39;Hi Marge!&amp;#39;) else: print(&amp;#39;You are not Homer or Marge&amp;#39;) for Loops The for loop iterates over a list, tuple, dictionary, set or string.</description>
+    </item>
+    <item>
+      <title>Third Project</title>
+      <link>http://localhost:1313/portfolio/projects/third-project/</link>
+      <pubDate>Thu, 29 Dec 2022 21:33:05 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/projects/third-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>http://localhost:1313/portfolio/portfolio/</link>
+      <pubDate>Thu, 29 Dec 2022 21:24:21 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/portfolio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/portfolio/contact/</link>
+      <pubDate>Thu, 29 Dec 2022 18:48:22 +0100</pubDate>
+      <guid>http://localhost:1313/portfolio/contact/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

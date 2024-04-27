@@ -46,10 +46,10 @@ Params:
     imageWidth: 180
     imageHeight: 180
     cv:
-      - name: French CV (outdated)
-        filePath: "/pdf/french_cv.pdf"
+      - name: French CV (up to date)
+        filePath: "pdf/CV_WALCZAK_Paul_042024.pdf"
       - name: English CV (outdated)
-        filePath: "/pdf/english_cv.pdf"
+        filePath: "pdf/english_cv.pdf"
 
     mail: paul.wzk.pro@gmail.com
     phone: +33 6 15 51 14 06
@@ -89,7 +89,7 @@ Params:
         duration: 1 year
         content: 
           - Currently in an apprenticeship for my last year of Engineering school.
-          - I'm a software developer for submarine drones.
+          - Software design of a radio remote control system for underwater drones.
         city: Caudan
         country: FRANCE
       - society: Upteko ApS
@@ -99,7 +99,6 @@ Params:
         duration: 5 months
         content: 
           - I played a role in several key projects, contributing to the development of hardware, software, and system integrations like the STM32 IMU, LogViewer, and Collision Avoidance SITL.
-          - I also contributeed to hardware design to collaborating on software development, reflecting my generalist skills across technological domains.
         city: Aarhus
         country: DENMARK
       - society: Kerpape
@@ -149,7 +148,7 @@ Params:
         country: FRANCE
 
   education:
-    title: Custom Education title
+    #title: Custom Education title
     enable: true
     list:
       - title: Generalist Engineer
@@ -157,6 +156,7 @@ Params:
         content: 
           - ENIB - École Nationale d'Ingénieur de Brest
           - General - Electronics, Mechatronics, Computer Science
+          - Apprenticeship with RTsys
           - Signal and image processing option
         city: Plouzané
         country: FRANCE
@@ -197,6 +197,12 @@ Params:
     #title: Custom title
     enable: true
     list:
+      - title: TOEIC - 900/990
+        date: Jan. 2023
+        content: 
+          - First Aid at Work
+        city: Plouzané
+        country: FRANCE
       - title: Sauveteur Secouriste du Travail
         date: Jan. 2022
         content: 
@@ -277,10 +283,10 @@ Params:
     enable: true
     list:
       - name : WingFoil
-        image: img/wing-foil-leucate.jpeg
+        image: img/wing-foil.jpg
       - name : Car Mechanics
         image: img/car-mechanics.jpg
-      - name : Web dev
-        image: img/web-dev-unsplash.jpg
+      - name : Sail
+        image: img/hobiecat.jpg
       - name : 3D Printing
         image: img/3d-printer-unsplash.jpg
