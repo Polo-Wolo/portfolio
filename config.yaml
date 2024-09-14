@@ -33,21 +33,21 @@ markup:
 Params:
   logo:
     enable: false
-    path: /img/pp_square.jpg
+    path: /img/pp_square_2.jpg
     url: https://polo-wolo.github.io/portfolio/
 
   profile:
     title: "Paul Walczak"
     github_profile : https://github.com/Polo-Wolo
     subtitle:
-        - line: "5th year student in generalist engineering school at ENIB"
-        - line: "Currently in a work-study program with RTsys"
-    imageUrl: "img/pp_square.jpg" # optional
+        - line: "General engineer with a degree from ENIB, passionate about embedded systems and maritime technologies"
+        - line: "Currently in a permanent contract with RTsys"
+    imageUrl: "img/pp_square_2.jpg" # optional
     imageWidth: 180
     imageHeight: 180
     cv:
       - name: French CV (up to date)
-        filePath: "pdf/CV_WALCZAK_Paul_042024.pdf"
+        filePath: "pdf/CV_WALCZAK_Paul_092024.pdf"
       - name: English CV (outdated)
         filePath: "pdf/english_cv.pdf"
 
@@ -82,6 +82,13 @@ Params:
     #title: Custom title
     enable: true
     list:
+      - society: RTsys
+        society_link: https://rtsys.eu/
+        title: Software development engineer
+        date: September 2024
+        duration: Sept. 2024 - now
+        city: Caudan
+        country: FRANCE
       - society: RTsys
         society_link: https://rtsys.eu/
         title: Engineering apprenticeship
@@ -255,6 +262,9 @@ Params:
           - C
           - QT Creator
           - Matlab / Scilab
+          - Git
+          - Mercurial
+          - Linux
       - name: Web development
         svg : desktop-solid
         list:
