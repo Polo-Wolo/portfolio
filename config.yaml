@@ -46,7 +46,7 @@ Params:
     imageWidth: 180
     imageHeight: 180
     cv:
-      - name: French CV (up to date)
+      - name: French CV (Sept. 2024)
         filePath: "pdf/CV_WALCZAK_Paul_092024.pdf"
       - name: English CV (outdated)
         filePath: "pdf/english_cv.pdf"
@@ -86,7 +86,7 @@ Params:
         society_link: https://rtsys.eu/
         title: Software development engineer
         date: September 2024
-        duration: Sept. 2024 - now
+        duration: Sept. 2024 - Dec. 2024
         city: Caudan
         country: FRANCE
       - society: RTsys
