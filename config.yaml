@@ -60,9 +60,9 @@ Params:
         - name: paul_wzk
           svg : instagram
           link: https://www.instagram.com/paul_wzk/
-        - name: Paul Walczak
-          svg : facebook
-          link: https://www.facebook.com/profile.php?id=100009639675518
+        # - name: Paul Walczak
+        #   svg : facebook
+        #   link: https://www.facebook.com/profile.php?id=100009639675518
         - name: Polo-Wolo
           svg : github
           link: https://github.com/Polo-Wolo
@@ -82,6 +82,13 @@ Params:
     #title: Custom title
     enable: true
     list:
+      - society: Breizelec
+        society_link: https://www.breizelec.fr/fr
+        title: Electronic development engineer
+        date: February 2025
+        duration: Feb. 2025 - Now. 2024
+        city: Châteaulin
+        country: FRANCE
       - society: RTsys
         society_link: https://rtsys.eu/
         title: Software development engineer
