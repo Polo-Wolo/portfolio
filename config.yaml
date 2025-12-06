@@ -86,7 +86,10 @@ Params:
         society_link: https://www.breizelec.fr/fr
         title: Electronic development engineer
         date: February 2025
-        duration: Feb. 2025 - Now. 2024
+        duration: Feb. 2025 - Now
+        content: 
+          - Retro-engineering to repair farming equipment.
+          - Power electronic development for Cristec company.
         city: Châteaulin
         country: FRANCE
       - society: RTsys
